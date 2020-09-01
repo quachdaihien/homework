@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="media/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Section 1:</h2>
+        <h3>Homework1</h3>
+        Đặt tên biến sai:
+        <ul>
+            <li>
+                Biến bắt đầu bằng số => VD: let 5Sci;
+            </li>
+            <li>
+                Biến chứa kí tự đặc biệt => VD: let &bien;
+            </li>
+            <li>
+                Biến trùng với từ khóa (let, for) => VD: let let;
+            </li>
+        </ul>
+        Kiểm tra kiểu biến: Dùng typeof<br>
+        VD: typeof 3;
+        <h3>Homework2</h3>
+        Answer:1-b,2-a, 3-e,4-c
+        <h3>Homework3</h3>
+        Biến có giá trị "Coding is great"<br>
+        <img src="media/images/ss1.jpg"><br>
+        <script>
+            var bien = "Coding is great";
+            console.log(bien);
+        </script>
+        Biến số = 0 in ra<br>
+        <img src="media/images/ss2.jpg"><br>
+        <script>
+            var so = 0;
+            console.log(so);
+        </script>
+        <h3>Homework4</h3>
+        <script>
+            var bien = "Coding is great";
+            var bien = "Coding Might not be easy, but still great"
+            console.log(bien);
+        </script>
+        <img src="media/images/ss1.jpg">
+        <script>
+            var so = 0;
+            var so = 46;
+            console.log(so);
+        </script>
+        <img src="media/images/ss2.jpg"><br>
+        Trả biến về text thường <br>
+        <script>
+            var bien = "Coding is great";
+            var bien = "Coding might not be easy, but still great";
+            var bienlow = bien.toLowerCase();
+            console.log(bienlow);
+        </script>
+        Tăng giá trị biến số lên 1 đơn vị<br>
+        <script>
+            var so = 0;
+            var so = 46;
+            ++so;
+            console.log(so);
+        </script>
+        <img src="media/images/ss3.jpg"><br>
+        <h3>Homework5</h3>
+        <button onclick="alo()">Click alert</button><br>
+        <script>
+            function alo() {
+                alert("You look beautiful today");
+            }
+        </script>
+        <h3>Homework6</h3>
+        <button onclick="hm6()">Click Now</button><br>
+        <script>
+            function hm6() {
+                var t = prompt("Hi there , your name please", '');
+                alert(t);
+            }
+        </script>
+        <img src="media/images/ss4.jpg">
+        <img src="media/images/ss5.jpg"><br>
+        <h3>Homework7</h3>
+        <button onclick="hm7()">Click Now Home Work7</button><br>
+        <script>
+            function hm7() {
+                var t = prompt("Tên", '');
+                var t2 = prompt("Họ", '');
+                var tt = t.concat(t2);
+                alert(tt);
+            }
+        </script>
+        <img src="media/images/ss7-1.jpg">
+        <img src="media/images/ss7-2.jpg">
+        <img src="media/images/ss7-3.jpg"><br>
+        <h3>Homework8</h3>
+        <p>Nhập độ dài cạnh vuông => Tính diện tích hình vuông</p>
+        <button onclick="hm8()">Click Now HomeWork 8</button><br>
+        <script>
+            function hm8() {
+                var t = prompt("Enter length of the square:", '');
+                t2 = t * t;
+                alert(t2);
+            }
+        </script>
+        <img src="media/images/ss8-1.jpg">
+        <img src="media/images/ss8-2.jpg"><br>
+        <h3>Homework9</h3>
+        <p>Nhập độ dài bán kính hình tròn => Tính diện tích hình tròn</p>
+        <button onclick="hm9()">Click Now HomeWork 9</button><br>
+        <script>
+            function hm9() {
+                var t = prompt("Enter radius of the circle: ", '');
+                var pi = 3.14;
+                t2 = pi * t * t;
+                alert(t2);
+            }
+        </script>
+        <img src="media/images/ss9-1.jpg">
+        <img src="media/images/ss9-2.jpg"><br>
+        <h3>Homework10</h3>
+        <p>Đổi độ C sang độ F</p>
+        <button onclick="hm10()">Click Now HomeWork 10</button><br>
+        <script>
+            function hm10() {
+                var doc = prompt("Độ ", '');
+                var ff = 33.8;
+                doc2 = doc * ff;
+                doc3 = doc + '(C)=' + doc2 + '(F)';
+                alert(doc3);
+            }
+        </script>
+        <img src="media/images/ss10-1.jpg">
+        <img src="media/images/ss10-2.jpg"><br>
+    </div>
+
+
+
+</body>
+
+</html>
